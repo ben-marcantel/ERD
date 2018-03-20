@@ -1,0 +1,27 @@
+{
+  "name": "ERD",
+  "version": "1.0.0",
+  "description": "first attempt at laying out an entity relationship diagram",
+  "main": "index.js",
+  "scripts": {
+    "data:generate": "node ./generate",
+    "db:generate": "node ./db-build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ben-marcantel/ERD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ben-marcantel/ERD/issues"
+  },
+  "homepage": "https://github.com/ben-marcantel/ERD#readme",
+  "dependencies": {
+    "sqlite3": "^4.0.0"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0"
+  }
+}
